@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Quattrocento&family=Roboto:ital,wght@1,300&family=Ruda&display=swap');
+.nav{
+    padding:15px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-text{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    color:gray;
+}
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    border: 1px solid yellow;
+    /* width:30px; */
+    color:yellow;
+    padding:10px;
+    margin-left:120px;
+    border-radius:10px;
+}
+.button1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    border: 1px solid black;
+    /* width:30px; */
+    color:black;
+    padding:10px;
+    margin-left:120px;
+    border-radius:10px;
+}
+.content{
+    margin-top: 50px;
+    
+   display:flex;
+   margin-inline: 100px;
+}
+.text{
+   margin-top:100px;
+    flex: 2;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ruda', sans-serif;
+}
+content>p{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ruda', sans-serif;
+}
+#modal1{
+    display:none;
+    position:relative;
+    width:600px;
+    height:600px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
